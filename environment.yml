@@ -1,6 +1,7 @@
 name: pyrosettascripts_demo
 channels:
   - conda-forge
+  - http://conda.ipd.uw.edu
 dependencies:
   - python=3.5
   - ipython
@@ -11,5 +12,6 @@ dependencies:
   - biopython
   - seaborn
   - python-blosc
-  - pip:
-    - https://storage.googleapis.com/protein-design-ipd-public/wheelhouse/pyrosetta-2017.48.post0.dev0%2B115.fordas.devbase.2f28739faee-cp35-cp35m-linux_x86_64.whl
+  - pyrosetta
+  - dask
+  - distributed
