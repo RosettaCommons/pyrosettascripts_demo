@@ -10,7 +10,7 @@ Getting started
 Running notebooks
 -----------------
 1. Data file for analysis notebook can be obtained [here](http://files.ipd.uw.edu/weitzner/result_frame.pkl)
-2. Run your own server: `conda install jupyter`
+2. Run your own server: `conda install jupyter` && `jupyter notebook`
 3. Try out binder (click button below)
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/RosettaCommons/pyrosettascripts_demo/master)
